@@ -18,7 +18,7 @@
     let arr = b.value.split(',').map(i => parseInt(i));
     arr.map(i=> a=a.filter(x=>x!==i));
     e.innerText = arr.length;
-    d.innerText = a.length
+    d.innerText = a.length;
     a.map(i=>{
         c.value+= i<10?'0'+i:i;
         c.value+= a.indexOf(i)< a.length-1? ", ":"";
